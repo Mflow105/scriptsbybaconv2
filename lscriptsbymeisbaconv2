@@ -1,0 +1,51 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("SCRIPTS BY BACONV2", "Synapse")
+
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("Main")
+
+
+Section:NewButton("Sus Mode", "You Will Become Imposter and Fling Everyone", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RASTERBEN3/nowsdda/main/f"))()
+end)
+
+Section:NewButton("FE GUI V3", "FE GUI", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Blukez/Scripts/main/UTG%20V3%20RAW"))()
+end)
+
+Section:NewButton("Inf Yield", "IDk", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Section:NewButton("Build A Boat", "IDk", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RASTERBEN3/builda-bao/main/fffdd"))()
+end)
+
+Section:NewButton("Arsenal Owl Hub", "IDk", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+Section:NewButton("AimBot Blox Fruit", "AimLock,AimBot", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Aimbot"))()
+end)
+
+Section:NewButton("Neva Hub Blox Fruit", "IDk", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
+end)
+
+Section:NewButton("HOHO Hub", "IDk", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+Section:NewButton("Pet Simulator X", "IDk", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Schervi/FloppaHub/main/FloppaHubMain.lua"))()
+end)
+
+Section:NewButton("Hotel Elephant", "IDk", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Teemsploit/Epic-roblox-hack/main/HotelElephantFuckerV2'))()
+end)
+
+Section:NewButton("Pet SIm X sc2", "IDk", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"))()
+end)
+
