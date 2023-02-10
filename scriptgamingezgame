@@ -49,3 +49,12 @@ Section:NewButton("Pet SIm X sc2", "IDk", function()
     loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"))()
 end)
 
+Section:NewButton("Door1Script", "IDk", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+end)
+
+Section:NewButton("Door2Script", "IDk", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+end)
+
+
