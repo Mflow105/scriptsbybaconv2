@@ -57,4 +57,46 @@ Section:NewButton("Door2Script", "IDk", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
 end)
 
+Section:NewButton("BloxFruitScriptb", "IDk", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/DonateMe/main/OldBf"))()
+end)
 
+Section:NewButton("MuscleLegendScript", "IDk", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/harisiskandar178/Roblox-Script/main/Muscle%20Legend"))()
+end)
+
+
+local Tab = Window:NewTab("Localplayer")
+local Section = Tab:NewSection("Localplayer")
+
+
+Section:NewSlider("WalkSpeed", "Change your speed", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+Section:NewSlider("JumpHeight", "Change your jumpheight", 500, 10, function(s) -- 500 (MaxValue) | 50 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpHeight = s
+end)
+
+Section:NewButton("ResetWalkspeed", "Reset walkspeed", function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+end)
+
+Section:NewButton("ResetJumpPower", "Reset jumppower", function()
+    game.Players.LocalPlayer.Character.Humanoid.JumpHeight = 10
+end)
+
+Section:NewButton("Reset WS/JP", "Reset walkspeed/jumppower", function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+    game.Players.LocalPlayer.Character.Humanoid.JumpHeight = 10
+end)
+
+Section:NewToggle("SuperHuman", "you will run fast and jump hight", function(state)
+    if state then
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+        game.Players.LocalPlayer.Character.Humanoid.JumpHeight = 100
+    else
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+        game.Players.LocalPlayer.Character.Humanoid.JumpHeight = 10
+    end
+end)
