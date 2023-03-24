@@ -65,6 +65,18 @@ Section:NewButton("MuscleLegendScript", "IDk", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/harisiskandar178/Roblox-Script/main/Muscle%20Legend"))()
 end)
 
+Section:NewButton("DoorScriptNerd", "IDk", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/doorsdone.lua"))()
+end)
+
+Section:NewButton("Door-RoomsScript", "IDk", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/doorsroomdone.lua"))()
+end)
+
+Section:NewButton("WorkATpizzaplaceScript", "IDk", function()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/bb2f1182a224999682a2d1a87aa8517a/raw/66c7791224be0434b23938ca26244238649d0143/ameicaa", true))()
+end)
+
 
 local Tab = Window:NewTab("Localplayer")
 local Section = Tab:NewSection("Localplayer")
