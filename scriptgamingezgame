@@ -6,7 +6,7 @@ local Section = Tab:NewSection("Main")
 
 
 Section:NewButton("Sus Mode", "You Will Become Imposter and Fling Everyone", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/RASTERBEN3/nowsdda/main/f"))()
+    loadstring(game httpget('https://pastebin.com/raw/7eCVjmjC'))()
 end)
 
 Section:NewButton("FE GUI V3", "FE GUI", function()
